@@ -14,7 +14,7 @@ const connectDatabase= require('./models/db');
 connectDatabase();
 
 app.get('/',(req,res)=>{
-    res.send("welcome to kube")
+    res.send("welcome to noida")
 })
 
 // SSL connection 
